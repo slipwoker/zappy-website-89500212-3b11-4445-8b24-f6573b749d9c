@@ -1,0 +1,47 @@
+# Business — Generative Engine Optimization Map
+
+---
+
+## Pages
+
+### בית
+https://example.com
+רוצה אתר מקצועי לעסק שלך? אתרתר מאפשרת לך ליצור אתר אינטרנט בלי קוד, עם שאלון פשוט וגמיש שמתאים לכל עסק קטן, פרילנסר ויזם. התחל עכשיו!
+
+### תהליך השאלון
+https://example.com/process
+גלה איך תהליך השאלון החכם של אתרתר בונה לך אתר מותאם אישית בצעדים פשוטים. בכל שאלה תמיד תמצא גם אופציה של &#39;אחר&#39; — כי העסק שלך ייחודי. התחל את התהליך היום!
+
+### דוגמאות והתאמה אישית
+https://example.com/examples
+דפדף בין דוגמאות אתרים אמיתיות שנוצרו דרך אתרתר וגלה כמה קל להתאים אישית כל פרט. מראה, צבעים, תוכן — הכל שלך. השראה מחכה לך כאן, לחץ וגלה!
+
+### צור קשר
+https://example.com/contact
+יש לך שאלה, רעיון או רוצה לדעת איך אתרתר יכולה לבנות את האתר המושלם לעסק שלך? צור איתנו קשר עכשיו ונחזור אליך מהר. בניית אתר לעסק קטן מעולם לא הייתה קלה יותר!
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Business
+---
+
+# Additional Resources
+
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
