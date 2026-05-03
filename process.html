@@ -768,7 +768,7 @@
 </script>
   
   <main>
-    <section class="process-intro-section" data-layout-spec="תהליך השאלון-intro" dir="rtl">
+    <section class="process-intro-section" data-layout-spec="תהליך השאלון-intro" dir="rtl" id="process-intro-section">
   <!-- Decorative botanical motif -->
   <svg class="process-intro-botanical" data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 220 180" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M20,160 Q40,120 60,100 Q80,80 100,60 Q120,40 140,30" stroke="#C4714A" stroke-width="1.5" fill="none" opacity="0.18"></path>
@@ -789,8 +789,8 @@
 
     <!-- Header block -->
     <div class="process-intro-header">
-      <span class="process-intro-eyebrow">תהליך השאלון</span>
-      <h1 class="process-intro-h1">בניית אתר לעסק שלך,<br>צעד אחר צעד</h1>
+      <p class="zappy-editable"><span class="process-intro-eyebrow">תהליך השאלון</span>
+      </p><h1 class="process-intro-h1">בניית אתר לעסק שלך,<br>צעד אחר צעד</h1>
       <p class="process-intro-lead">אנחנו מאמינים שכל עסק ראוי לאתר שמספר את הסיפור שלו — בלי קוד, בלי תסכול, ובלי לאבד את עצמך בפרטים טכניים. השאלון שלנו מוביל אותך בדיוק לאן שצריך, ובכל שאלה תמיד תמצאי גם את האפשרות: <em>אחר</em> — כי העסק שלך ייחודי.</p>
     </div>
 
@@ -834,15 +834,15 @@
         <div class="panel-header-dots">
           <span></span><span></span><span></span>
         </div>
-        <span class="panel-header-title">שאלון בניית האתר</span>
-        <div class="panel-header-step">שלב 2 מתוך 7</div>
+        <p><span class="panel-header-title">שאלון בניית האתר</span>
+        </p><div class="panel-header-step" >שטלב 2 מתוך 7</div>
       </div>
 
       <!-- Panel content: stacked question cards -->
       <div class="panel-body">
 
         <!-- Question card 1 (answered) -->
-        <div class="question-card question-card--answered">
+        <div class="question-card question-card--answered" data-grid-item-index="0">
           <div class="question-card-meta">
             <span class="question-number">01</span>
             <span class="question-badge question-badge--done">הושלם</span>
@@ -855,17 +855,17 @@
         </div>
 
         <!-- Question card 2 (active) -->
-        <div class="question-card question-card--active">
+        <div class="question-card question-card--active" data-grid-item-index="1">
           <div class="question-card-meta">
             <span class="question-number">02</span>
             <span class="question-badge question-badge--active">בתהליך</span>
           </div>
           <p class="question-text">באיזה תחום עוסק העסק שלך?</p>
           <div class="question-options">
-            <button class="option-chip" type="button">עיצוב ויצירה</button>
-            <button class="option-chip" type="button">קמעונאות ומסחר</button>
-            <button class="option-chip option-chip--selected" type="button">בריאות ורווחה</button>
-            <button class="option-chip option-chip--other" type="button">
+            <button class="option-chip" type="button" data-element-type="button" data-element-id="btn-1777822185440-muj58s7pw" data-native-element="true">עיצוב ויצירה</button>
+            <button class="option-chip" type="button" data-element-type="button" data-element-id="btn-1777822185440-vzxoautau" data-native-element="true">קמעונאות ומסחר</button>
+            <button class="option-chip option-chip--selected" type="button" data-element-type="button" data-element-id="btn-1777822185440-qmdw71ujj" data-native-element="true">בריאות ורווחה</button>
+            <button class="option-chip option-chip--other" type="button" data-element-type="button" data-element-id="btn-1777822185440-5irbytywm" data-native-element="true">
               <svg data-element-type="icon" data-icon-type="svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>
               אחר
             </button>
@@ -873,17 +873,17 @@
         </div>
 
         <!-- Question card 3 (upcoming) -->
-        <div class="question-card question-card--upcoming">
+        <div class="question-card question-card--upcoming" data-grid-item-index="2">
           <div class="question-card-meta">
             <span class="question-number">03</span>
             <span class="question-badge question-badge--upcoming">בקרוב</span>
           </div>
           <p class="question-text">מה המטרה העיקרית של האתר?</p>
           <div class="question-options question-options--faded">
-            <button class="option-chip" type="button" disabled="">הצגת תיק עבודות</button>
-            <button class="option-chip" type="button" disabled="">מכירת מוצרים</button>
-            <button class="option-chip" type="button" disabled="">יצירת קשר</button>
-            <button class="option-chip option-chip--other" type="button" disabled="">אחר</button>
+            <button class="option-chip" type="button" disabled="" data-element-type="button" data-element-id="btn-1777822185440-89fnyet3g" data-native-element="true">הצגת תיק עבודות</button>
+            <button class="option-chip" type="button" disabled="" data-element-type="button" data-element-id="btn-1777822185440-vpfyu6ehh" data-native-element="true">מכירת מוצרים</button>
+            <button class="option-chip" type="button" disabled="" data-element-type="button" data-element-id="btn-1777822185440-jtp2wchej" data-native-element="true">יצירת קשר</button>
+            <button class="option-chip option-chip--other" type="button" disabled="" data-element-type="button" data-element-id="btn-1777822185440-wv7j2du3h" data-native-element="true">אחר</button>
           </div>
         </div>
 
@@ -891,7 +891,7 @@
 
       <!-- Panel image placeholder -->
       <div class="panel-image-wrapper">
-        <img data-placeholder="process-intro-image-1" data-context="Warm editorial flat-lay illustration of a digital questionnaire UI on a cream background. Shows stacked question cards with multiple-choice options, a highlighted selected option in terracotta, and an &quot;Other&quot; option chip in dusty blue. Soft shadows, rounded card corners, minimal and calm design aesthetic. No people, no text, just UI shapes and soft color." width="900" height="400" src="/assets/site-process-intro-image-1.webp" alt="דוגמה לשאלון בניית אתר עם אפשרויות בחירה מרובות" class="panel-illustration">
+        <img data-placeholder="process-intro-image-1" data-context="Warm editorial flat-lay illustration of a digital questionnaire UI on a cream background. Shows stacked question cards with multiple-choice options, a highlighted selected option in terracotta, and an &quot;Other&quot; option chip in dusty blue. Soft shadows, rounded card corners, minimal and calm design aesthetic. No people, no text, just UI shapes and soft color." width="900" height="400" src="/assets/site-process-intro-image-1.webp" alt="דוגמה לשאלון בניית אתר עם אפשרויות בחירה מרובות" class="panel-illustration" data-element-type="image" data-element-id="img-1777822185461-qwcd4szbi" >
       </div>
     </div>
 
